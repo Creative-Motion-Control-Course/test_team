@@ -27,12 +27,11 @@ git push -u origin main
 ```
 3. **Enable GitHub Pages**: Go to your repo's *Settings → Pages*, set Source to **GitHub Actions**.
 4. **Update the front page**: Modify the index.md file with your team name and Team Member Bios and pictures.
-4. **Start a new project**: Modify the `projects/project1/` folder.
-4. **Add your code**: Place your Arduino `.ino` and any supporting `.h`/`.cpp` files in the `code/` folder.
-5. **Write your documentation**: Edit `docs/index.md` to describe your project, embed images and video.
-6. **Update the home page**: Add a link to your new project in `index.md` at the repo root.
-7. **Push to GitHub**: Your documentation site will automatically deploy to `https://<your-username>.github.io/<repo-name>/`.
-
+5. **Start a new project**: All code and documentation for your first project should live in the `projects/project1/` folder. (There is a project2 folder for your final).
+6. **Add your code**: Place your Arduino `.ino` and any supporting `.h`/`.cpp` files in the `code/` folder.
+7. **Write your documentation**: Edit `docs/index.md` to describe your project, embed images and video.
+8. **Update the home page**: Add a link to your new project in `index.md` at the repo root.
+9. **Push to GitHub**: Your documentation site will automatically deploy to `https://<your-username>.github.io/<repo-name>/`.
 ## Writing Documentation
 
 Each project's `docs/index.md` is a Markdown file that supports:
